@@ -1,4 +1,4 @@
-print("oi mundo")
+
 
 '''
 * ler o exif dos arquivos de uma pasta
@@ -7,3 +7,13 @@ print("oi mundo")
 * mover arquivos para as pastas de acordo com as datas
 
 '''
+import os
+def nomeArquivos ():
+
+    nome = os.listdir()
+
+    for f in nome:
+        print(f)
+
+nomeArquivos()
+
